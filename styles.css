@@ -1,0 +1,130 @@
+/*  My fonts  */
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #333;
+    background-color: blanchedalmond;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 50px;
+    color: #047;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 22px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 0 0 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* Display */ 
+.left{
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+}
+
+.right{
+    display: inline-block;
+    width: 39%;
+
+}
+#info .left {
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+
+#info .right {
+    vertical-align: bottom;
+    width: 59%;
+    text-align: right;
+}
+
+section.left {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;}
+
+
+section.right {
+    display: inline-block;
+    width: 59%; }
+
+#info h1 {
+    margin:0;
+}
+
+#info h2 {
+    margin:0;
+}
+
+#info.right{
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.work-title-left {
+    display: inline-block;
+    width: 74;
+}
+
+.work-title-right {
+    display: inline-block;
+    width: 24;
+}
+
+.form-question {
+    margin: 20px 0;
+}
+
+.form-question label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-question input, .form-question texttarea {
+
+    width: 80vw;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#submit {
+    padding: 7px 20px;
+    background-color: aquamarine;
+    border: 0;
+    box-shadow: 1px 2px #333;
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color: lightslategray;
+    box-shadow: none;
+    border: 1px solid cornflowerblue;
+}
